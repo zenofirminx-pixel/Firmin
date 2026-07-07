@@ -2,158 +2,160 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Firmin | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+<title>Grande collection d'équations mathématiques</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f2f2f2;
+}
+
+.container {
+    background: white;
+    padding: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.equation {
+    font-size: 22px;
+    text-align: center;
+    background: #eeeeee;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+button {
+    display: block;
+    margin: 40px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+@media print {
+    button {
+        display:none;
+    }
+}
+</style>
 </head>
+
 <body>
 
-<!-- ECRAN CONDITIONS -->
-<div id="termsScreen">
-  <h2>Conditions d'utilisation</h2>
-  <div id="termsContent">
-    
-    <h3>1. Objet du site</h3>
-    <p>Ce site est le portfolio personnel de Firmin. L'accès et l'utilisation impliquent l'acceptation des présentes conditions.</p>
+<div class="container">
 
-    <h3>2. Accès au site</h3>
-    <p>Le site est accessible gratuitement. Des interruptions peuvent survenir pour maintenance.</p>
+<h1>Collection d'équations mathématiques</h1>
 
-    <h3>3. Propriété intellectuelle</h3>
-    <p>Tout le contenu est ma propriété intellectuelle. Usage personnel autorisé, usage commercial interdit sans accord.</p>
-    <ul>
-      <li>Consultation et partage personnel autorisés</li>
-      <li>Reproduction commerciale interdite sans autorisation</li>
-    </ul>
 
-    <h3>4. Utilisation interdite</h3>
-    <ul>
-      <li>Contenu illégal, diffamatoire, haineux</li>
-      <li>Hack, injection de code malveillant</li>
-      <li>Usurpation d'identité</li>
-    </ul>
+<div class="section">
+<h2>Algèbre</h2>
 
-    <h3>5. Données personnelles</h3>
-    <p>Aucune donnée collectée. Seule l'acceptation est stockée en localStorage sur ton appareil.</p>
+<div class="equation">a + b = c</div>
+<div class="equation">ax + b = 0</div>
+<div class="equation">x = -b/a</div>
+<div class="equation">ax² + bx + c = 0</div>
+<div class="equation">Δ = b² - 4ac</div>
+<div class="equation">x = (-b ± √Δ)/2a</div>
+<div class="equation">(a+b)² = a² + 2ab + b²</div>
+<div class="equation">(a-b)² = a² - 2ab + b²</div>
+<div class="equation">a²-b² = (a-b)(a+b)</div>
 
-    <h3>6. Responsabilité</h3>
-    <p>Les projets sont fournis "tel quel". Je ne suis pas responsable des dommages liés à leur utilisation.</p>
-
-    <h3>7. Modification des conditions</h3>
-    <p>Je peux modifier ces conditions à tout moment. La date de mise à jour est en bas.</p>
-
-    <p style="margin-top:24px;font-size:13px;color:#888;">
-      Dernière mise à jour : 4 octobre 2025
-    </p>
-  </div>
-  <div class="terms-check">
-    <input type="checkbox" id="acceptTerms">
-    <label for="acceptTerms">J'ai lu et j'accepte les conditions d'utilisation</label>
-  </div>
-  <button id="continueBtn" disabled>
-    <span class="btn-text">Continuer</span>
-    <div class="loader"></div>
-  </button>
 </div>
 
-<nav>
-  <div class="nav-wrap">
-    <div class="logo">Firmin<span>.</span></div>
-    <div class="nav-links">
-      <a href="#about">À propos</a>
-      <a href="#story">Mon Histoire</a>
-      <a href="#projects">Projets</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
 
-<header class="hero">
-  <div class="hero-content">
-    <h1>Salut, je suis <span class="accent">Firmin</span></h1>
-    <p>Dev & créateur de ChatAurX. Je build des apps IA et des outils pour devs.</p>
-    <div class="hero-btns">
-      <a href="#projects" class="btn primary">Voir mes projets</a>
-      <a href="#contact" class="btn outline">Me contacter</a>
-    </div>
-  </div>
-</header>
+<div class="section">
+<h2>Géométrie</h2>
 
-<section id="about" class="section">
-  <h2>À propos de moi</h2>
-  <div class="about-wrap">
-    <div class="about-text">
-      <p>Je suis Firmin, développeur passionné par l'IA, le web et l'automatisation.</p>
-      <p>J'aime prendre une idée complexe et la transformer en produit simple et utile.</p>
-      <div class="skills">
-        <span>JavaScript</span><span>HTML/CSS</span><span>Node.js</span>
-        <span>Python</span><span>APIs</span><span>UI/UX</span>
-      </div>
-    </div>
-    <div class="about-img">
-      <div class="img-placeholder">👨‍💻</div>
-    </div>
-  </div>
-</section>
+<div class="equation">A = πr²</div>
+<div class="equation">C = 2πr</div>
+<div class="equation">V = l × L × h</div>
+<div class="equation">V = 4/3 πr³</div>
+<div class="equation">a²+b²=c²</div>
+<div class="equation">d = √((x₂-x₁)²+(y₂-y₁)²)</div>
 
-<section id="story" class="section dark">
-  <h2>Mon Histoire</h2>
-  <div class="story-content">
-    <h2>🚀 L’histoire de Firmin</h2>
-    <p>Firmin est un jeune passionné de technologie vivant à Kinshasa en République Démocratique du Congo. Très tôt, il s’intéresse au fonctionnement des systèmes numériques, des applications et surtout à l’intelligence artificielle.</p>
-    <p>Au lieu de rester simple utilisateur, il décide de devenir créateur. Il commence à apprendre le développement avec les moyens qu’il a, principalement son téléphone Android.</p>
+</div>
 
-    <h2>💡 Les débuts</h2>
-    <p>Firmin apprend progressivement à construire des projets simples : applications web, bots Telegram, pages HTML et expérimentations d’IA. Malgré les limites matérielles, il avance en autodidacte et développe une vraie compréhension des systèmes numériques.</p>
 
-    <h2>🤖 Le projet Einstein</h2>
-    <p>Avec le temps, il imagine un projet ambitieux appelé <strong>Einstein</strong>. Ce projet représente une IA personnelle capable de répondre, automatiser des tâches et évoluer vers un système intelligent complet.</p>
+<div class="section">
+<h2>Trigonométrie</h2>
 
-    <h2>🌐 La vision FIRMINX</h2>
-    <p>Firmin imagine ensuite une entreprise appelée <strong>FIRMINX</strong>. Son objectif est de créer un écosystème technologique complet basé sur l’IA, incluant des applications, un réseau social et des services intelligents.</p>
+<div class="equation">sin²(x)+cos²(x)=1</div>
+<div class="equation">tan(x)=sin(x)/cos(x)</div>
+<div class="equation">sin(a+b)=sin(a)cos(b)+cos(a)sin(b)</div>
+<div class="equation">cos(a+b)=cos(a)cos(b)-sin(a)sin(b)</div>
 
-    <h2>🎯 Sa vision du futur</h2>
-    <p>Firmin se voit dans le futur comme un entrepreneur technologique, dirigeant sa propre entreprise et créant des systèmes d’IA utilisés à grande échelle.</p>
-  </div>
-</section>
+</div>
 
-<section id="projects" class="section">
-  <h2>Mes Projets</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="project-header">
-        <h3>ChatAurX</h3><span class="tag">IA</span>
-      </div>
-      <p>App de chat IA avec historique, export, thème clair/sombre.</p>
-      <div class="project-links">
-        <a href="#" target="_blank">Demo</a><a href="#" target="_blank">Code</a>
-      </div>
-    </div>
-    <div class="project-card">
-      <div class="project-header">
-        <h3>Linux Terminal Sim</h3><span class="tag">JS</span>
-      </div>
-      <p>Simulateur de terminal Linux en JavaScript pur.</p>
-      <div class="project-links">
-        <a href="#" target="_blank">Demo</a><a href="#" target="_blank">Code</a>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section id="contact" class="section dark">
-  <h2>On bosse ensemble ?</h2>
-  <p class="contact-text">Tu as un projet ? Envoie-moi un message.</p>
-  <div class="contact-links">
-    <a href="mailto: firminphinees@gmail.com" class="contact-link">📧 Email</a>
-    <a href="https://github.com/tonpseudo" target="_blank" class="contact-link">💻 GitHub</a>
-  </div>
-</section>
+<div class="section">
+<h2>Analyse</h2>
 
-<footer>
-  <p>© 2026 Firmin. Fait avec passion et du café ☕</p>
-</footer>
+<div class="equation">f'(x)=lim(h→0)(f(x+h)-f(x))/h</div>
+<div class="equation">(xⁿ)'=nxⁿ⁻¹</div>
+<div class="equation">(sin x)'=cos x</div>
+<div class="equation">(cos x)'=-sin x</div>
+<div class="equation">∫xⁿdx=xⁿ⁺¹/(n+1)+C</div>
+<div class="equation">∫eˣdx=eˣ+C</div>
 
-<script src="script.js"></script>
+</div>
+
+
+<div class="section">
+<h2>Suites et séries</h2>
+
+<div class="equation">uₙ=u₀+nr</div>
+<div class="equation">uₙ=u₀qⁿ</div>
+<div class="equation">Sₙ=n(u₁+uₙ)/2</div>
+<div class="equation">Σ(n=1→∞)1/n²=π²/6</div>
+
+</div>
+
+
+<div class="section">
+<h2>Probabilités</h2>
+
+<div class="equation">P(A)=Nombre de cas favorables / Nombre de cas possibles</div>
+<div class="equation">P(A∩B)=P(A)P(B)</div>
+<div class="equation">E(X)=Σxᵢpᵢ</div>
+<div class="equation">σ²=E(X²)-E(X)²</div>
+
+</div>
+
+
+<div class="section">
+<h2>Matrices</h2>
+
+<div class="equation">A×B=C</div>
+<div class="equation">det(A)=ad-bc</div>
+<div class="equation">AX=B</div>
+
+
+</div>
+
+
+<div class="section">
+<h2>Physique mathématique</h2>
+
+<div class="equation">F=ma</div>
+<div class="equation">E=mc²</div>
+<div class="equation">v=d/t</div>
+<div class="equation">P=W/t</div>
+
+</div>
+
+
+<button onclick="window.print()">
+Convertir en PDF
+</button>
+
+</div>
+
 </body>
 </html>
