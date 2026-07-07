@@ -2,158 +2,184 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Firmin | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collège Sainte-Christine - Site de test</title>
 </head>
+
 <body>
 
-<!-- ECRAN CONDITIONS -->
-<div id="termsScreen">
-  <h2>Conditions d'utilisation</h2>
-  <div id="termsContent">
-    
-    <h3>1. Objet du site</h3>
-    <p>Ce site est le portfolio personnel de Firmin. L'accès et l'utilisation impliquent l'acceptation des présentes conditions.</p>
-
-    <h3>2. Accès au site</h3>
-    <p>Le site est accessible gratuitement. Des interruptions peuvent survenir pour maintenance.</p>
-
-    <h3>3. Propriété intellectuelle</h3>
-    <p>Tout le contenu est ma propriété intellectuelle. Usage personnel autorisé, usage commercial interdit sans accord.</p>
-    <ul>
-      <li>Consultation et partage personnel autorisés</li>
-      <li>Reproduction commerciale interdite sans autorisation</li>
-    </ul>
-
-    <h3>4. Utilisation interdite</h3>
-    <ul>
-      <li>Contenu illégal, diffamatoire, haineux</li>
-      <li>Hack, injection de code malveillant</li>
-      <li>Usurpation d'identité</li>
-    </ul>
-
-    <h3>5. Données personnelles</h3>
-    <p>Aucune donnée collectée. Seule l'acceptation est stockée en localStorage sur ton appareil.</p>
-
-    <h3>6. Responsabilité</h3>
-    <p>Les projets sont fournis "tel quel". Je ne suis pas responsable des dommages liés à leur utilisation.</p>
-
-    <h3>7. Modification des conditions</h3>
-    <p>Je peux modifier ces conditions à tout moment. La date de mise à jour est en bas.</p>
-
-    <p style="margin-top:24px;font-size:13px;color:#888;">
-      Dernière mise à jour : 4 octobre 2025
-    </p>
-  </div>
-  <div class="terms-check">
-    <input type="checkbox" id="acceptTerms">
-    <label for="acceptTerms">J'ai lu et j'accepte les conditions d'utilisation</label>
-  </div>
-  <button id="continueBtn" disabled>
-    <span class="btn-text">Continuer</span>
-    <div class="loader"></div>
-  </button>
-</div>
-
-<nav>
-  <div class="nav-wrap">
-    <div class="logo">Firmin<span>.</span></div>
-    <div class="nav-links">
-      <a href="#about">À propos</a>
-      <a href="#story">Mon Histoire</a>
-      <a href="#projects">Projets</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
-
-<header class="hero">
-  <div class="hero-content">
-    <h1>Salut, je suis <span class="accent">Firmin</span></h1>
-    <p>Dev & créateur de ChatAurX. Je build des apps IA et des outils pour devs.</p>
-    <div class="hero-btns">
-      <a href="#projects" class="btn primary">Voir mes projets</a>
-      <a href="#contact" class="btn outline">Me contacter</a>
-    </div>
-  </div>
+<header>
+<h1>Collège Sainte-Christine</h1>
+<p>École secondaire - Makala / Ngaba - Kinshasa</p>
 </header>
 
-<section id="about" class="section">
-  <h2>À propos de moi</h2>
-  <div class="about-wrap">
-    <div class="about-text">
-      <p>Je suis Firmin, développeur passionné par l'IA, le web et l'automatisation.</p>
-      <p>J'aime prendre une idée complexe et la transformer en produit simple et utile.</p>
-      <div class="skills">
-        <span>JavaScript</span><span>HTML/CSS</span><span>Node.js</span>
-        <span>Python</span><span>APIs</span><span>UI/UX</span>
-      </div>
-    </div>
-    <div class="about-img">
-      <div class="img-placeholder">👨‍💻</div>
-    </div>
-  </div>
+<section id="school-info">
+<h2>Présentation</h2>
+<p>Le Collège Sainte-Christine est un établissement secondaire offrant un enseignement général et scientifique. Il accompagne les élèves dans leur réussite scolaire.</p>
+
+<p><strong>Adresse :</strong> Avenue Exemple 15, Makala, Kinshasa</p>
+<p><strong>Téléphone :</strong> +243 900 000 000</p>
+<p><strong>Email :</strong> contact@saintechristine.cd</p>
 </section>
 
-<section id="story" class="section dark">
-  <h2>Mon Histoire</h2>
-  <div class="story-content">
-    <h2>🚀 L’histoire de Firmin</h2>
-    <p>Firmin est un jeune passionné de technologie vivant à Kinshasa en République Démocratique du Congo. Très tôt, il s’intéresse au fonctionnement des systèmes numériques, des applications et surtout à l’intelligence artificielle.</p>
-    <p>Au lieu de rester simple utilisateur, il décide de devenir créateur. Il commence à apprendre le développement avec les moyens qu’il a, principalement son téléphone Android.</p>
+<section id="announcements">
+<h2>Actualités</h2>
 
-    <h2>💡 Les débuts</h2>
-    <p>Firmin apprend progressivement à construire des projets simples : applications web, bots Telegram, pages HTML et expérimentations d’IA. Malgré les limites matérielles, il avance en autodidacte et développe une vraie compréhension des systèmes numériques.</p>
+<article>
+<h3>Rentrée scolaire</h3>
+<p>La rentrée scolaire est fixée au 2 septembre 2026 à 7h30.</p>
+</article>
 
-    <h2>🤖 Le projet Einstein</h2>
-    <p>Avec le temps, il imagine un projet ambitieux appelé <strong>Einstein</strong>. Ce projet représente une IA personnelle capable de répondre, automatiser des tâches et évoluer vers un système intelligent complet.</p>
-
-    <h2>🌐 La vision FIRMINX</h2>
-    <p>Firmin imagine ensuite une entreprise appelée <strong>FIRMINX</strong>. Son objectif est de créer un écosystème technologique complet basé sur l’IA, incluant des applications, un réseau social et des services intelligents.</p>
-
-    <h2>🎯 Sa vision du futur</h2>
-    <p>Firmin se voit dans le futur comme un entrepreneur technologique, dirigeant sa propre entreprise et créant des systèmes d’IA utilisés à grande échelle.</p>
-  </div>
+<article>
+<h3>Réunion des parents</h3>
+<p>Une réunion est prévue le samedi 12 septembre à 10h00.</p>
+</article>
 </section>
 
-<section id="projects" class="section">
-  <h2>Mes Projets</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="project-header">
-        <h3>ChatAurX</h3><span class="tag">IA</span>
-      </div>
-      <p>App de chat IA avec historique, export, thème clair/sombre.</p>
-      <div class="project-links">
-        <a href="#" target="_blank">Demo</a><a href="#" target="_blank">Code</a>
-      </div>
-    </div>
-    <div class="project-card">
-      <div class="project-header">
-        <h3>Linux Terminal Sim</h3><span class="tag">JS</span>
-      </div>
-      <p>Simulateur de terminal Linux en JavaScript pur.</p>
-      <div class="project-links">
-        <a href="#" target="_blank">Demo</a><a href="#" target="_blank">Code</a>
-      </div>
-    </div>
-  </div>
+<section id="schedule">
+<h2>Emploi du temps</h2>
+
+<h3>Lundi</h3>
+<p>08:00 Mathématiques</p>
+<p>09:00 Français</p>
+<p>10:00 Physique</p>
+<p>11:00 Anglais</p>
+
+<h3>Mardi</h3>
+<p>08:00 Biologie</p>
+<p>09:00 Chimie</p>
+<p>10:00 Géographie</p>
+<p>11:00 Informatique</p>
 </section>
 
-<section id="contact" class="section dark">
-  <h2>On bosse ensemble ?</h2>
-  <p class="contact-text">Tu as un projet ? Envoie-moi un message.</p>
-  <div class="contact-links">
-    <a href="mailto: firminphinees@gmail.com" class="contact-link">📧 Email</a>
-    <a href="https://github.com/tonpseudo" target="_blank" class="contact-link">💻 GitHub</a>
-  </div>
+<section id="courses">
+<h2>Cours</h2>
+
+<article>
+<h3>Mathématiques</h3>
+<p>Chapitre : Équations du premier degré.</p>
+</article>
+
+<article>
+<h3>Physique</h3>
+<p>Chapitre : Les forces et le mouvement.</p>
+</article>
+
+<article>
+<h3>Français</h3>
+<p>Chapitre : Analyse grammaticale.</p>
+</article>
+</section>
+
+<section id="homeworks">
+<h2>Devoirs</h2>
+
+<p>Mathématiques : Exercices page 45.</p>
+
+<p>Physique : Préparer le laboratoire.</p>
+
+<p>Français : Résumé du texte page 32.</p>
+
+</section>
+
+<section id="calendar">
+<h2>Calendrier scolaire</h2>
+
+<p>02 septembre : Rentrée scolaire</p>
+
+<p>15 octobre : Premier contrôle</p>
+
+<p>10 décembre : Examens du premier trimestre</p>
+
+<p>20 décembre : Début des vacances</p>
+
+</section>
+
+<section id="results">
+<h2>Résultats</h2>
+
+<p>Les résultats du premier trimestre seront publiés le 18 décembre.</p>
+
+</section>
+
+<section id="documents">
+<h2>Documents</h2>
+
+<a href="emploi_du_temps.pdf">Télécharger l'emploi du temps</a><br>
+
+<a href="reglement.pdf">Règlement intérieur</a><br>
+
+<a href="inscription.pdf">Formulaire d'inscription</a>
+
+</section>
+
+<section id="activities">
+<h2>Vie scolaire</h2>
+
+<p>Club Informatique</p>
+
+<p>Club Robotique</p>
+
+<p>Football</p>
+
+<p>Basketball</p>
+
+</section>
+
+<section id="staff">
+<h2>Administration</h2>
+
+<p>Directeur : Jean Mukendi</p>
+
+<p>Préfet des études : Marie Nzambe</p>
+
+<p>Secrétariat : secretariat@saintechristine.cd</p>
+
+</section>
+
+<section id="admission">
+<h2>Admissions</h2>
+
+<p>Les inscriptions sont ouvertes du 1 août au 31 août.</p>
+
+<p>Documents requis : Acte de naissance, bulletin précédent, photo d'identité.</p>
+
+</section>
+
+<section id="gallery">
+<h2>Galerie</h2>
+
+<img src="cour.jpg" alt="Cour de l'école">
+
+<img src="classe.jpg" alt="Salle de classe">
+
+</section>
+
+<section id="faq">
+<h2>Questions fréquentes</h2>
+
+<h3>À quelle heure commencent les cours ?</h3>
+<p>Les cours commencent à 8h00.</p>
+
+<h3>Comment obtenir une attestation ?</h3>
+<p>Adressez-vous au secrétariat.</p>
+
+</section>
+
+<section id="links">
+<h2>Liens utiles</h2>
+
+<a href="https://example.com/plateforme">Plateforme pédagogique</a><br>
+
+<a href="https://facebook.com/saintechristine">Facebook</a>
+
 </section>
 
 <footer>
-  <p>© 2026 Firmin. Fait avec passion et du café ☕</p>
+
+<p>© 2026 Collège Sainte-Christine</p>
+
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
