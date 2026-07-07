@@ -1,153 +1,175 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 <meta charset="UTF-8">
-<title>Grande collection d'équations mathématiques</title>
+<title>Collection d'équations mathématiques</title>
+
+<!-- KaTeX CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+<!-- KaTeX JS -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
 
 <style>
+
 body {
     font-family: Arial, sans-serif;
-    margin: 40px;
-    background: #f2f2f2;
+    background:#f2f2f2;
+    margin:40px;
 }
 
 .container {
-    background: white;
-    padding: 35px;
+    background:white;
+    padding:40px;
 }
 
 h1 {
-    text-align: center;
-}
-
-.section {
-    margin-top: 30px;
+    text-align:center;
 }
 
 .equation {
-    font-size: 22px;
-    text-align: center;
-    background: #eeeeee;
-    padding: 12px;
-    margin: 12px 0;
+    background:#eee;
+    padding:20px;
+    margin:15px 0;
+    text-align:center;
+    font-size:24px;
+    border-radius:8px;
 }
 
 button {
-    display: block;
-    margin: 40px auto;
-    padding: 15px 30px;
-    font-size: 18px;
+    display:block;
+    margin:40px auto;
+    padding:15px 30px;
+    font-size:18px;
+    cursor:pointer;
 }
+
 
 @media print {
     button {
         display:none;
     }
 }
+
 </style>
+
 </head>
+
 
 <body>
 
+
 <div class="container">
+
 
 <h1>Collection d'équations mathématiques</h1>
 
 
-<div class="section">
 <h2>Algèbre</h2>
 
-<div class="equation">a + b = c</div>
-<div class="equation">ax + b = 0</div>
-<div class="equation">x = -b/a</div>
-<div class="equation">ax² + bx + c = 0</div>
-<div class="equation">Δ = b² - 4ac</div>
-<div class="equation">x = (-b ± √Δ)/2a</div>
-<div class="equation">(a+b)² = a² + 2ab + b²</div>
-<div class="equation">(a-b)² = a² - 2ab + b²</div>
-<div class="equation">a²-b² = (a-b)(a+b)</div>
+<div class="equation">
+$$a x+b=0$$
+</div>
 
+<div class="equation">
+$$x=\frac{-b}{a}$$
+</div>
+
+<div class="equation">
+$$ax^2+bx+c=0$$
+</div>
+
+<div class="equation">
+$$\Delta=b^2-4ac$$
+</div>
+
+<div class="equation">
+$$x=\frac{-b\pm\sqrt{\Delta}}{2a}$$
 </div>
 
 
-<div class="section">
+<h2>Identités remarquables</h2>
+
+<div class="equation">
+$$(a+b)^2=a^2+2ab+b^2$$
+</div>
+
+<div class="equation">
+$$(a-b)^2=a^2-2ab+b^2$$
+</div>
+
+<div class="equation">
+$$a^2-b^2=(a-b)(a+b)$$
+</div>
+
+
 <h2>Géométrie</h2>
 
-<div class="equation">A = πr²</div>
-<div class="equation">C = 2πr</div>
-<div class="equation">V = l × L × h</div>
-<div class="equation">V = 4/3 πr³</div>
-<div class="equation">a²+b²=c²</div>
-<div class="equation">d = √((x₂-x₁)²+(y₂-y₁)²)</div>
+<div class="equation">
+$$A=\pi r^2$$
+</div>
 
+<div class="equation">
+$$C=2\pi r$$
+</div>
+
+<div class="equation">
+$$a^2+b^2=c^2$$
 </div>
 
 
-<div class="section">
 <h2>Trigonométrie</h2>
 
-<div class="equation">sin²(x)+cos²(x)=1</div>
-<div class="equation">tan(x)=sin(x)/cos(x)</div>
-<div class="equation">sin(a+b)=sin(a)cos(b)+cos(a)sin(b)</div>
-<div class="equation">cos(a+b)=cos(a)cos(b)-sin(a)sin(b)</div>
+<div class="equation">
+$$\sin^2(x)+\cos^2(x)=1$$
+</div>
 
+<div class="equation">
+$$\tan(x)=\frac{\sin(x)}{\cos(x)}$$
 </div>
 
 
-<div class="section">
 <h2>Analyse</h2>
 
-<div class="equation">f'(x)=lim(h→0)(f(x+h)-f(x))/h</div>
-<div class="equation">(xⁿ)'=nxⁿ⁻¹</div>
-<div class="equation">(sin x)'=cos x</div>
-<div class="equation">(cos x)'=-sin x</div>
-<div class="equation">∫xⁿdx=xⁿ⁺¹/(n+1)+C</div>
-<div class="equation">∫eˣdx=eˣ+C</div>
+<div class="equation">
+$$f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}$$
+</div>
 
+<div class="equation">
+$$\frac{d}{dx}x^n=nx^{n-1}$$
+</div>
+
+<div class="equation">
+$$\int x^n dx=\frac{x^{n+1}}{n+1}+C$$
 </div>
 
 
-<div class="section">
 <h2>Suites et séries</h2>
 
-<div class="equation">uₙ=u₀+nr</div>
-<div class="equation">uₙ=u₀qⁿ</div>
-<div class="equation">Sₙ=n(u₁+uₙ)/2</div>
-<div class="equation">Σ(n=1→∞)1/n²=π²/6</div>
+<div class="equation">
+$$u_n=u_0+nr$$
+</div>
 
+<div class="equation">
+$$u_n=u_0q^n$$
+</div>
+
+<div class="equation">
+$$\sum_{n=1}^{\infty}\frac1{n^2}=\frac{\pi^2}{6}$$
 </div>
 
 
-<div class="section">
-<h2>Probabilités</h2>
-
-<div class="equation">P(A)=Nombre de cas favorables / Nombre de cas possibles</div>
-<div class="equation">P(A∩B)=P(A)P(B)</div>
-<div class="equation">E(X)=Σxᵢpᵢ</div>
-<div class="equation">σ²=E(X²)-E(X)²</div>
-
-</div>
-
-
-<div class="section">
-<h2>Matrices</h2>
-
-<div class="equation">A×B=C</div>
-<div class="equation">det(A)=ad-bc</div>
-<div class="equation">AX=B</div>
-
-
-</div>
-
-
-<div class="section">
 <h2>Physique mathématique</h2>
 
-<div class="equation">F=ma</div>
-<div class="equation">E=mc²</div>
-<div class="equation">v=d/t</div>
-<div class="equation">P=W/t</div>
+<div class="equation">
+$$F=ma$$
+</div>
 
+<div class="equation">
+$$E=mc^2$$
 </div>
 
 
@@ -155,7 +177,28 @@ button {
 Convertir en PDF
 </button>
 
+
 </div>
 
+
+<script>
+
+window.addEventListener("load", () => {
+
+renderMathInElement(document.body, {
+
+delimiters: [
+{left:"$$", right:"$$", display:true},
+{left:"$", right:"$", display:false}
+]
+
+});
+
+});
+
+</script>
+
+
 </body>
+
 </html>
